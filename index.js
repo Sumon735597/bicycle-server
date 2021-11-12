@@ -35,7 +35,7 @@ async function run() {
 
 
 
-        //add product
+        //add product//
 
         app.post('/product', async (req, res) => {
             const product=req.body;
